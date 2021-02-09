@@ -11,10 +11,8 @@ export class AddItemFormComponent implements OnInit {
 
   ngOnInit(): void {
 
-    var switchButton = document.querySelector('.switch-button');
     var switchBtnRight = document.querySelector('.switch-button-case.right');
     var switchBtnLeft = document.querySelector('.switch-button-case.left');
-    var activeSwitch = document.querySelector('.active');
 
     function switchLeft() {
       switchBtnRight.classList.remove('active-case');

@@ -1,13 +1,24 @@
 <form>
     <div class="field is-horizontal">
         <div class="field-body">
-            <div class="field" id="data-input">
+            <div class="field is-narrow data-input">
                 
                 <p class="onoff"><input type="checkbox" value="1" id="checkboxID"><label for="checkboxID"></label></p>
               
                 <p class="control" >  
                     <input type="number" placeholder="Amount" class="input" id="amount">
                 </p>
+            </div>
+
+            <div class="field is-narrow data-input">
+              
+                <p class="control" >  
+                    <input type="text" placeholder="Description" class="input" id="description">
+                </p>
+            </div>
+
+            <div class="field data-input">
+                <button class="button is-primary">Add</button>
             </div>
         </div>
     </div>
